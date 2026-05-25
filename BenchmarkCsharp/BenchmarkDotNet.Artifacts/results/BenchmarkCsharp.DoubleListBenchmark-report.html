@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>BenchmarkCsharp.DoubleListBenchmark-20260522-195825</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.15.8, Windows 11 (10.0.26200.8457/25H2/2025Update/HudsonValley2)
+AMD Ryzen 7 7435HS 3.10GHz, 1 CPU, 16 logical and 8 physical cores
+.NET SDK 10.0.300
+  [Host]     : .NET 10.0.8 (10.0.8, 10.0.826.23019), X64 RyuJIT x86-64-v3
+  DefaultJob : .NET 10.0.8 (10.0.8, 10.0.826.23019), X64 RyuJIT x86-64-v3
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>Method</th><th>Mean   </th><th>Error</th><th>StdDev</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>Add</td><td>58,311.922 &mu;s</td><td>907.7906 &mu;s</td><td>804.7327 &mu;s</td><td>400000 B</td>
+</tr><tr><td>Contains</td><td>9.933 &mu;s</td><td>0.1311 &mu;s</td><td>0.1226 &mu;s</td><td>-</td>
+</tr><tr><td>Remove</td><td>58,568.344 &mu;s</td><td>339.7354 &mu;s</td><td>301.1666 &mu;s</td><td>400000 B</td>
+</tr></tbody></table>
+</body>
+</html>
